@@ -1,0 +1,16 @@
+{
+	"model": "normal",
+	"asset_id": "minecraft:entity/chicken/cluckshroom",
+	"spawn_conditions": [
+		{
+			"condition": {
+				"type": "minecraft:biome",
+				"biomes": [
+					"minecraft:dark_forest",
+					"minecraft:swamp"
+				]
+			},
+			"priority": 1
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+    "model": "normal",
+    "asset_id": "minecraft:entity/pig/muddy_pig",
+	"spawn_conditions": [
+		{
+			"condition": {
+				"type": "minecraft:biome",
+				"biomes": [
+					"minecraft:mangrove_swamp",
+					"swamp"
+				]
+			},
+			"priority": 1
+		}
+	]
+}

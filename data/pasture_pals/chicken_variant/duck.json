@@ -1,0 +1,6 @@
+{
+	"model": "normal",
+	"asset_id": "minecraft:entity/chicken/duck",
+	"spawn_conditions": [
+	]
+}

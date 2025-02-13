@@ -1,0 +1,17 @@
+{
+	"model": "normal",
+	"asset_id": "minecraft:entity/chicken/skewbald_chicken",
+	"spawn_conditions": [
+		{
+			"condition": {
+				"type": "minecraft:biome",
+				"biomes": [
+					"minecraft:meadow",
+					"minecraft:cherry_grove",
+					"minecraft:savanna_plateau"
+				]
+			},
+			"priority": 1
+		}
+	]
+}

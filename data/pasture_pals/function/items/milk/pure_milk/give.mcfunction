@@ -1,0 +1,3 @@
+give @s milk_bucket[item_name="Bucket of Pure Milk",item_model="minecraft:pure_milk_bucket",lore=[{"color":"gray","italic":false,"text":"When Applied:"},{"color":"blue","italic":false,"text":" Frostbite (1:00)"},{"color":"blue","italic":false,"text":"  Slowness I (0:10)"},{"italic":false,"text":"  Resistance II (1:00)","color":"blue"}],custom_data={pasture_pals:{item:"pure_milk_bucket"}}] 1
+tag @s add pp.milked_cow
+schedule function pasture_pals:items/milk/clear_milk 1t

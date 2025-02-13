@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "pack_format": 66,
+        "description": "§eMore Animal Variants! §7v1.21.5\n§7Author: §e§osagedontgo",
+		"supported_formats": [
+			65,
+            65
+		]
+    }
+}
