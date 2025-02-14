@@ -1,0 +1,12 @@
+{
+	"asset_id": "minecraft:entity/cat/snowy_cat",
+	"spawn_conditions": [
+		{
+			"condition": {
+				"type": "minecraft:structure",
+				"structures": "minecraft:village_snowy"
+			},
+			"priority": 1
+		}
+	]
+}

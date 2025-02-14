@@ -1,0 +1,12 @@
+{
+	"asset_id": "minecraft:entity/cat/grey_tabby",
+	"spawn_conditions": [
+		{
+			"condition": {
+				"type": "minecraft:structure",
+				"structures": "minecraft:village_plains"
+			},
+			"priority": 1
+		}
+	]
+}

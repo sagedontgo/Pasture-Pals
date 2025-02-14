@@ -1,4 +1,12 @@
 {
 	"asset_id": "minecraft:entity/cat/clam_cat",
-	"spawn_conditions": []
+	"spawn_conditions": [
+		{
+			"condition": {
+				"type": "minecraft:structure",
+				"structures": "minecraft:swamp_hut"
+			},
+			"priority": 0
+		}
+	]
 }

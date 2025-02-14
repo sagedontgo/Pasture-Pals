@@ -1,0 +1,12 @@
+{
+	"asset_id": "minecraft:entity/cat/rusty_cat",
+	"spawn_conditions": [
+		{
+			"condition": {
+				"type": "minecraft:structure",
+				"structures": "minecraft:village_savanna"
+			},
+			"priority": 1
+		}
+	]
+}
