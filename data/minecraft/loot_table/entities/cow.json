@@ -114,7 +114,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:item_name": "White Leather",
-								"minecraft:item_model": "minecraft:white_leather"
+								"minecraft:item_model": "minecraft:leather/white_leather"
 							}
 						}
 					],
@@ -146,7 +146,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_model": "minecraft:charred_hide",
+								"minecraft:item_model": "minecraft:leather/charred_hide",
 								"minecraft:item_name": "Charred Hide",
 								"minecraft:custom_data": "{pasture_pals:{item:\"charred_hide\"}}"
 							}

@@ -60,7 +60,8 @@
 									"function": "minecraft:set_components",
 									"components": {
 										"minecraft:item_model": "minecraft:egg/amber_egg",
-										"minecraft:item_name": "Amber Egg"
+										"minecraft:item_name": "Amber Egg",
+										"minecraft:chicken/variant": "pasture_pals:amber_chicken"
 									}
 								}
 							],
@@ -82,7 +83,8 @@
 									"function": "minecraft:set_components",
 									"components": {
 										"minecraft:item_model": "minecraft:egg/bronzed_egg",
-										"minecraft:item_name": "Bronzed Egg"
+										"minecraft:item_name": "Bronzed Egg",
+										"minecraft:chicken/variant": "pasture_pals:bronzed_chicken"
 									}
 								}
 							],
@@ -104,7 +106,8 @@
 									"function": "minecraft:set_components",
 									"components": {
 										"minecraft:item_model": "minecraft:egg/cluckshroom_egg",
-										"minecraft:item_name": "Cluckshroom Egg"
+										"minecraft:item_name": "Cluckshroom Egg",
+										"minecraft:chicken/variant": "pasture_pals:cluckshroom"
 									}
 								}
 							],
@@ -126,7 +129,8 @@
 									"function": "minecraft:set_components",
 									"components": {
 										"minecraft:item_model": "minecraft:egg/fancy_egg",
-										"minecraft:item_name": "Fancy Egg"
+										"minecraft:item_name": "Fancy Egg",
+										"minecraft:chicken/variant": "pasture_pals:fancy_chicken"
 									}
 								}
 							],
@@ -148,7 +152,8 @@
 									"function": "minecraft:set_components",
 									"components": {
 										"minecraft:item_model": "minecraft:egg/gold_crested_egg",
-										"minecraft:item_name": "Gold-Crested Egg"
+										"minecraft:item_name": "Gold-Crested Egg",
+										"minecraft:chicken/variant": "pasture_pals:gold_crested_chicken"
 									}
 								}
 							],
@@ -158,6 +163,75 @@
 									"entity": "this",
 									"predicate": {
 										"nbt": "{variant:\"pasture_pals:gold_crested_chicken\"}"
+									}
+								}
+							]
+						},
+                        {
+							"type": "minecraft:item",
+							"name": "minecraft:egg",
+							"functions": [
+								{
+									"function": "minecraft:set_components",
+									"components": {
+										"minecraft:item_model": "minecraft:egg/stormy_egg",
+										"minecraft:item_name": "Stormy Egg",
+										"minecraft:chicken/variant": "pasture_pals:stormy_chicken"
+									}
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{variant:\"pasture_pals:stormy_chicken\"}"
+									}
+								}
+							]
+						},
+                        {
+							"type": "minecraft:item",
+							"name": "minecraft:egg",
+							"functions": [
+								{
+									"function": "minecraft:set_components",
+									"components": {
+										"minecraft:item_model": "minecraft:egg/skewbald_egg",
+										"minecraft:item_name": "Skewbald Egg",
+										"minecraft:chicken/variant": "pasture_pals:skewbald_chicken"
+									}
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{variant:\"pasture_pals:skewbald_chicken\"}"
+									}
+								}
+							]
+						},
+                        {
+							"type": "minecraft:item",
+							"name": "minecraft:egg",
+							"functions": [
+								{
+									"function": "minecraft:set_components",
+									"components": {
+										"minecraft:item_model": "minecraft:egg/midnight_egg",
+										"minecraft:item_name": "Midnight Egg",
+										"minecraft:chicken/variant": "pasture_pals:midnight_chicken"
+									}
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{variant:\"pasture_pals:midnight_chicken\"}"
 									}
 								}
 							]

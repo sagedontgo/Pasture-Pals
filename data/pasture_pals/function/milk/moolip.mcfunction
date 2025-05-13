@@ -1,0 +1,3 @@
+clear @s milk_bucket[!custom_data] 1
+give @s milk_bucket[item_name="Strawberry Milk",item_model="minecraft:milk/strawberry_milk",custom_data={pasture_pals:{item:"strawberry_milk"}},consumable={animation:"drink",sound:"minecraft:entity.generic.drink",has_consume_particles:false,on_consume_effects:[{type:"apply_effects",effects:[{id:"regeneration",amplifier:3,duration:100}]}]},lore=[{"text":"Regeneration IV (00:05)",color:blue,italic:false}]]
+advancement revoke @s only pasture_pals:milks_moolip

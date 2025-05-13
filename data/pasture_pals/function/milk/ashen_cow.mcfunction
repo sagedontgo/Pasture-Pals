@@ -1,0 +1,3 @@
+clear @s milk_bucket[!custom_data] 1
+give @s milk_bucket[item_name="Embered Milk",item_model="minecraft:milk/embered_milk",custom_data={pasture_pals:{item:"embered_milk"}},consumable={animation:"drink",sound:"minecraft:entity.generic.drink",has_consume_particles:false,on_consume_effects:[{type:"apply_effects",effects:[{id:"fire_resistance",amplifier:0,duration:600}]}]},lore=[{"text":"Fire Resistance (00:30)",color:blue,italic:false}]]
+advancement revoke @s only pasture_pals:milks_ashen_cow

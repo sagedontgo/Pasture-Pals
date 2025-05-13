@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "milks_cow": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:bucket"
+                },
+                "entity": {
+                    "type": "minecraft:cow",
+                    "nbt": "{variant:\"pasture_pals:umbra_cow\"}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "milks_cow"
+        ]
+    ],
+    "rewards": {
+        "function": "pasture_pals:milk/umbra_cow"
+    }
+}

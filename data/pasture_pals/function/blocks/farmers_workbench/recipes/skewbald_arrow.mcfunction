@@ -1,0 +1,4 @@
+function pasture_pals:blocks/farmers_workbench/crafting_succeed
+
+data merge block ~ ~ ~ {Items:[]}
+summon item ~ ~ ~ {Item:{id:"minecraft:arrow",count:4,components:{"minecraft:potion_contents":{custom_color:15518892,custom_effects:[{id:"minecraft:nausea",amplifier:1,duration:200,show_particles:1b,show_icon:1b}]},"minecraft:custom_data":{pasture_pals:{item:"skewbald_arrow"}},"tooltip_display":{hidden_components:["potion_contents"]},"minecraft:custom_name":{"text":"Skewbald Arrow",italic:false},"minecraft:item_model":"minecraft:arrow/skewbald_arrow"}}}
