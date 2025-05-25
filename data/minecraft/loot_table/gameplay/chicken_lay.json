@@ -60,7 +60,7 @@
 									"function": "minecraft:set_components",
 									"components": {
 										"minecraft:item_model": "minecraft:egg/amber_egg",
-										"minecraft:item_name": "Amber Egg",
+										"minecraft:item_name": {"translate":"item.pasture_pals.amber_egg","fallback":"Amber Egg"},
 										"minecraft:chicken/variant": "pasture_pals:amber_chicken"
 									}
 								}
@@ -83,7 +83,7 @@
 									"function": "minecraft:set_components",
 									"components": {
 										"minecraft:item_model": "minecraft:egg/bronzed_egg",
-										"minecraft:item_name": "Bronzed Egg",
+										"minecraft:item_name": {"translate":"item.pasture_pals.bronzed_egg","fallback":"Bronzed Egg"},
 										"minecraft:chicken/variant": "pasture_pals:bronzed_chicken"
 									}
 								}
@@ -106,7 +106,7 @@
 									"function": "minecraft:set_components",
 									"components": {
 										"minecraft:item_model": "minecraft:egg/cluckshroom_egg",
-										"minecraft:item_name": "Cluckshroom Egg",
+										"minecraft:item_name": {"translate":"item.pasture_pals.cluckshroom_egg","fallback":"Cluckshroom Egg"},
 										"minecraft:chicken/variant": "pasture_pals:cluckshroom"
 									}
 								}
@@ -129,7 +129,7 @@
 									"function": "minecraft:set_components",
 									"components": {
 										"minecraft:item_model": "minecraft:egg/fancy_egg",
-										"minecraft:item_name": "Fancy Egg",
+										"minecraft:item_name": {"translate":"item.pasture_pals.fancy_egg","fallback":"Fancy Egg"},
 										"minecraft:chicken/variant": "pasture_pals:fancy_chicken"
 									}
 								}
@@ -152,7 +152,7 @@
 									"function": "minecraft:set_components",
 									"components": {
 										"minecraft:item_model": "minecraft:egg/gold_crested_egg",
-										"minecraft:item_name": "Gold-Crested Egg",
+										"minecraft:item_name": {"translate":"item.pasture_pals.gold_crested_arrow","fallback":"Gold-Crested Egg"},
 										"minecraft:chicken/variant": "pasture_pals:gold_crested_chicken"
 									}
 								}
@@ -175,7 +175,7 @@
 									"function": "minecraft:set_components",
 									"components": {
 										"minecraft:item_model": "minecraft:egg/stormy_egg",
-										"minecraft:item_name": "Stormy Egg",
+										"minecraft:item_name": {"translate":"item.pasture_pals.stormy_egg","fallback":"Stormy Egg"},
 										"minecraft:chicken/variant": "pasture_pals:stormy_chicken"
 									}
 								}
@@ -198,7 +198,7 @@
 									"function": "minecraft:set_components",
 									"components": {
 										"minecraft:item_model": "minecraft:egg/skewbald_egg",
-										"minecraft:item_name": "Skewbald Egg",
+										"minecraft:item_name": {"translate":"item.pasture_pals.skewbald_egg","fallback":"Skewbald Egg"},
 										"minecraft:chicken/variant": "pasture_pals:skewbald_chicken"
 									}
 								}
@@ -221,7 +221,7 @@
 									"function": "minecraft:set_components",
 									"components": {
 										"minecraft:item_model": "minecraft:egg/midnight_egg",
-										"minecraft:item_name": "Midnight Egg",
+										"minecraft:item_name": {"translate":"item.pasture_pals.midnight_egg","fallback":"Midnight Egg"},
 										"minecraft:chicken/variant": "pasture_pals:midnight_chicken"
 									}
 								}

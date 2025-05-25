@@ -57,7 +57,8 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"nbt": "{variant:\"cow:moolip\"}"
+								"type": "cow",
+								"nbt": "{variant:\"pasture_pals:moolip\"}"
 							}
 						}
 					]
@@ -91,7 +92,8 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"nbt": "{variant:\"cow:moobloom\"}"
+								"type": "cow",
+								"nbt": "{variant:\"pasture_pals:moobloom\"}"
 							}
 						}
 					]
@@ -113,7 +115,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_name": "White Leather",
+								"minecraft:item_name": {"translate":"item.pasture_pals.white_leather","fallback":"White Leather"},
 								"minecraft:item_model": "minecraft:leather/white_leather"
 							}
 						}
@@ -147,7 +149,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:item_model": "minecraft:leather/charred_hide",
-								"minecraft:item_name": "Charred Hide",
+								"minecraft:item_name": {"translate":"item.pasture_pals.charred_hide","fallback":"Charred Hide"},
 								"minecraft:custom_data": "{pasture_pals:{item:\"charred_hide\"}}"
 							}
 						}

@@ -4,6 +4,7 @@ execute as @e[type=pig,nbt={variant:"pasture_pals:dried_muddy_pig"}] at @s if bl
 
 execute as @e[type=item_display,tag=pp.pre_place,tag=pp.farmers_workbench] at @s run function pasture_pals:blocks/farmers_workbench/place
 execute as @e[type=item_display,tag=pp.farmers_workbench,tag=!pp.pre_place] at @s run function pasture_pals:blocks/farmers_workbench/break
+# execute as @e[type=item_display,tag=pp.farmers_workbench] at @s run function pasture_pals:blocks/farmers_workbench/validate_recipe_legacy
 execute as @e[type=item_display,tag=pp.farmers_workbench] at @s run function pasture_pals:blocks/farmers_workbench/validate_recipe
 
 execute as @a[nbt={equipment:{feet:{components:{"minecraft:custom_data":{pasture_pals:{item:"winter_boots"}}}}}}] at @s run function pasture_pals:items/snow_boots/on_snow

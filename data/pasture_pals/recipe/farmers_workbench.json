@@ -76,7 +76,7 @@
 				}
 			},
 			"minecraft:item_model": "minecraft:farmers_workbench",
-			"minecraft:item_name": "Farmers' Workbench"
+			"minecraft:item_name": {"translate":"block.pasture_pals.farmers_workbench","fallback":"Farmers' Workbench"}
 		},
 		"count": 1
 	},

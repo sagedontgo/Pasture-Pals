@@ -1,4 +1,4 @@
 function pasture_pals:blocks/farmers_workbench/crafting_succeed
 
 data merge block ~ ~ ~ {Items:[]}
-summon item ~ ~ ~ {Item:{id:"minecraft:arrow",count:4,components:{"minecraft:potion_contents":{custom_color:4212840,custom_effects:[{id:"minecraft:blindness",amplifier:0,duration:60,show_particles:1b,show_icon:1b}]},"minecraft:custom_data":{pasture_pals:{item:"midnight_arrow"}},"tooltip_display":{hidden_components:["potion_contents"]},"minecraft:custom_name":{"text":"Midnight Arrow",italic:false},"minecraft:item_model":"minecraft:arrow/midnight_arrow"}}}
+summon item ~ ~ ~ {Item:{id:"minecraft:arrow",count:4,components:{"minecraft:potion_contents":{custom_color:4212840,custom_effects:[{id:"minecraft:blindness",amplifier:0,duration:60,show_particles:1b,show_icon:1b}]},"minecraft:custom_data":{pasture_pals:{item:"midnight_arrow"}},"tooltip_display":{hidden_components:["potion_contents"]},"minecraft:custom_name":{"translate":"item.pasture_pals.midnight_arrow",fallback:"Midnight Arrow",italic:false},"minecraft:item_model":"minecraft:arrow/midnight_arrow"}}}
